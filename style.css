@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio&family=DM+Sans:ital@0;1&family=Lato:ital@1&family=Montserrat&family=Nunito&family=Poppins&family=Roboto:ital,wght@1,100;1,400&family=Silkscreen&display=swap');
+body{
+    width: 100px,
+    height:100px;
+/*     background-color: #ffffff; */
+     font-family: 'popin', sans-serif;
+/*     box-shadow: 0px 0px 15px 30px lightgray; */
+    background-image: url("https://images.innisfree.co.kr/kr/ko/upload/pdtDetailNew/makeup/face/cushion/new_nosebum_powder_cushion_img/gif02.gif");
+   
+}
+
+#main-con{
+    width: 650px;
+    height: 900px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 10px;
+/*     background: rgba(255, 0, 0, 0.5);  */
+/*    box-shadow: 10px 5px 15px;  */
+    box-shadow: 0px 0px 15px 30px #ffffff;
+    
+}
+h1 {
+  background-color:cadetblue;
+    border-radius: 10px;
+    
+}
+.nav-bar{
+  display: flex;
+   justify-content: space-around;
+    align-items: center;
+  
+}
+ul {
+   display: flex;
+   justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    gap:20px;
+    text-decoration: underline;
+    color:blue;
+}         
+#btn3:hover{
+    background-color: blue;
+    color: #ffffff;
+}
+    
+
+.img-con1{
+/*     padding-right: 350px; */
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+/*    border-radius: 50px; */
+    
+}
+.img-con1 hr{
+    width: 400px;
+}
+
+
+
+.img-con2{
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+    
+       
+}
+.btn-con{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:5px;
+
+}
+.btn1 h4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 0px;
+    gap: 5px;
+    color: #ff0000;
+    border-color: #ff0000;
+/*     border-radius: 10px; */
+  
+}
+
+
+ .btn2 h4 {
+   display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100px;
+    height: 0px;
+    gap:5px;
+    color: slateblue;
+/*     border-radius: 10px;  */
+     
+   
+ }
+
